@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>上传文件</title>
+    <style>
+        body{TEXT-ALIGN: center;}
+        .up{
+            MARGIN-RIGHT: auto;
+            MARGIN-LEFT: auto;
+            height:200px;
+            background:green;
+            width:400px;
+            vertical-align:middle;
+            line-height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="up">
+        <form method="post" action="upload" enctype="multipart/form-data">
+            英雄名称：<input type="text" name="英雄"><br>
+            上传头像：<input type="file" name="filepath">
+            <input type="submit" style="border: 1px" value="上传">
+        </form>
+    </div>
+</body>
+</html>
